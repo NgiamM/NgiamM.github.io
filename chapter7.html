@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend> User Information </legend>
+      Enter your name: <br>
+      <input type = "text" name = "firstname"> <br>
+      Enter your password: <br>
+      <input type = "text" name = "lastname"> <br>
+      Tell us about yourself <br>
+        <textarea rows="5" cols="40">
+          
+        </textarea> <br>
+      </fieldset>
+    </form>
+    
+    <form>
+      <p> Are you new to my site? </p>
+      <input type="radio" name="new" value="yes" checked> yes
+      <input type="radio" name="old" value="no"> no <br>
+    </form>
+    
+    <form> 
+      <p> Do you want to subscribe to my blog? <input type="checkbox" name="subscribe" value="yes"> </p>
+      <p> What is your student's year? <select>
+        <option value="select"> Select your option </option>
+        <option value="2018"> 2018 </option>
+        <option value="2019"> 2019 </option>
+        <option value="2020"> 2020 </option>
+        <option value="2021"> 2021 </option>
+        </select> 
+      </p>
+    </form>
+    
+    <form action="thankyou.html" method="post">
+    <p> Where did you hear about me? </p>
+      <select name = "references" size = "3" multiple = "multiple"> 
+      <option value = "web" selected = "selected">
+        Web
+      </option>
+        <option value = "newspaper">
+          Newspaper
+        </option>
+        <option value = "friends">
+          Friends
+        </option>
+        <option value = "flyer">
+          Flyer
+        </option>
+        <option value = "info session">
+          Info Session
+        </option>
+      </select>
+      <br>
+      <br>
+       <input type="submit" value="Send">
+    </form>
+  </body>
+</html>
